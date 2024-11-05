@@ -1,0 +1,7 @@
+{
+    "RENDER": true, 
+    "SAVE_JSON": true, 
+    "OUTPUT_GRAPHS": true,
+    "FOLDERPATH": "config\\Paper",
+    "LOOP": false
+}
