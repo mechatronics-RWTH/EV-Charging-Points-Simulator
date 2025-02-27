@@ -1,0 +1,38 @@
+{
+    "title": "Run time",
+    "y_axis_title": "Run_time / s",
+    "file_name": "Simulation_Environment_run_times.svg",
+    "data": [
+        {
+            "step_size_min": 5,
+            "sim_duration_days": 1,
+            "sim_time": 6.358665943145752
+        },
+        {
+            "step_size_min": 5,
+            "sim_duration_days": 2,
+            "sim_time": 10.002354383468628
+        },
+        {
+            "step_size_min": 5,
+            "sim_duration_days": 7,
+            "sim_time": 33.31773400306702
+        },
+        {
+            "step_size_min": 5,
+            "sim_duration_days": 14,
+            "sim_time": 72.11657810211182
+        },
+        {
+            "step_size_min": 1,
+            "sim_duration_days": 1,
+            "sim_time": 21.14875078201294
+        },
+        {
+            "step_size_min": 10,
+            "sim_duration_days": 1,
+            "sim_time": 4.766093969345093
+        }
+
+    ]
+}

@@ -1,0 +1,5 @@
+2025-02-19 20:22:53,567 - SimulationEnvironment.EnvConfig - WARNING - KeyError: 'stationary_batteries' in config file. Apparently no stationary batteries are defined.
+2025-02-19 20:22:53,809 - SimulationEnvironment.EnvConfig - INFO - Recording data path in D:\021_Git\08_Gini_V2X_Strategy\gini_smart_charging_strategy\OutputData\logs\save_as_json_logs\run_2025-02-19_19-52-47\run_2025-02-19_19-52-47_config.json is config/traffic_sim_config/Benchmark/arriving_evs_record_2024-12-13_09-33-37_spring.json
+2025-02-19 20:22:54,259 - SimulationEnvironment.EnvConfig - WARNING - KeyError: 'stationary_batteries' in config file. Apparently no stationary batteries are defined.
+2025-02-19 20:22:54,497 - SimulationEnvironment.EnvConfig - INFO - Recording data path in D:\021_Git\08_Gini_V2X_Strategy\gini_smart_charging_strategy\OutputData\logs\save_as_json_logs\run_2025-02-19_19-52-47\run_2025-02-19_19-52-47_config.json is config/traffic_sim_config/Benchmark/arriving_evs_record_2024-12-13_09-33-37_spring.json
+2025-02-19 20:22:54,642 - __main__ - INFO - Final revenue 300.8692690043883 from 505.5571569843003 bought and 806.4264259886886 sold

@@ -1,0 +1,16 @@
+{
+"title": "Final Profit",
+"y_axis_title": "User Satisfaction / \\euro",
+"file_name": "user_satisfaction_comparison.svg",
+"data": 
+{
+    "algorithms": ["Rule-Based", "HMARL", "MPC LSTM"],
+    "seasons": ["Winter", "Spring", "Summer", "Fall"],
+    "results": {
+        "Winter": [-15.591323022956182, -13.921643326440725 , -14.287463423150383],
+        "Spring": [-17.691737933479175, -16.12434702003599 ,-15.682901680785164],
+        "Summer": [-18.23394466885346, -16.160879005405665, -16.264117099932808],
+        "Fall": [-19.644315793450968, -16.966714485527085, -17.087832261085698]
+    }
+}
+}

@@ -1,0 +1,32 @@
+# Enables or disables logging via WandB
+enable_logging: true  # true = logging enabled, false = logging disabled
+
+# Enables or disables saving the training model
+save_model: true  # true = saving enabled, false = saving disabled
+
+save_rewards: true # true = saving enabled, false = saving disabled
+
+log_rewards: true # true = saving enabled, false = saving disabled
+
+saving_interval: 5  # Interval at which the model is saved
+
+# Path to the environment configuration file
+config_path:  "Controller_Agent/Reinforcement_Learning/Training/data" # "config/env_config/env_config_Milan_Dev.json"  # Set the path to the configuration file
+#config_path: "config/env_config/Benchmark/comparison_summer.json"
+
+reward_cost_weight: 0.125 # r = revenue + reward_cost_weight* cost
+
+
+# Specifies the type of hyperparameter optimization
+#only activated if agent_mode = 2
+#Note Optimization ONLY WORKS with SZENARIOS less than 4 days
+HyperparameterOptimization:
+  # Values:
+  # 0 = Random search
+  # 1 = Grid search
+  # 2 = Bayesian optimization
+  value: 2
+
+
+
+

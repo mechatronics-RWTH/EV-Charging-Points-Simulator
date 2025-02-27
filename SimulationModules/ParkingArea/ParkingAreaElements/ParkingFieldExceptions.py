@@ -1,0 +1,2 @@
+class FieldAlreadyOccupiedError(Exception):
+    pass

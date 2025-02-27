@@ -1,0 +1,14 @@
+{
+
+    "N_pred": 24,
+    "solver": "gurobi",
+    "solver_time_limit": 60,
+    "solver_mip_gap": 0.05,
+    "show_solver_output": false,
+    "selling_cost_in_euro_per_kwh": 0.5,
+    "use_slack_weight_end_of_horizon": false,
+    "prediction_mode" : "perfect",
+    "prediction_data_path": "config/traffic_sim_config/Benchmark/arriving_evs_record_2024-12-13_09-33-37_spring.json",
+    "lstm_model_path":"Controller_Agent/Model_Predictive_Controller/Prediction/LSTM/models/lstm_model_and_scaler_augmented_simple_comp.joblib"
+
+}

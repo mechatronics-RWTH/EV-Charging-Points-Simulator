@@ -1,0 +1,493 @@
+{
+    "metadata": {
+        "start_date": "2022-06-02 00:00:00",
+        "sim_duration": 86400.0,
+        "step_time": 300.0,
+        "customers_per_hour": 2,
+        "assigner_mode": "random",
+        "max_parking_time": 7200.0,
+        "parking_lot_path": "test/Parking_lot_test small.txt"
+    },
+    "ev_data": [
+        {
+            "arrival_id": 0,
+            "arrival_time": "2022-06-02 00:20:00",
+            "departure_time": "2022-06-02 00:52:02",
+            "energy_demand_at_arrival": 43.273501490151865,
+            "battery": {
+                "battery_energy": 55,
+                "present_energy": 11.726498509848133,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 63
+        },
+        {
+            "arrival_id": 1,
+            "arrival_time": "2022-06-02 05:00:00",
+            "departure_time": "2022-06-02 05:36:41",
+            "energy_demand_at_arrival": 61.08029725582088,
+            "battery": {
+                "battery_energy": 80,
+                "present_energy": 18.91970274417912,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 127
+        },
+        {
+            "arrival_id": 2,
+            "arrival_time": "2022-06-02 06:05:00",
+            "departure_time": "2022-06-02 06:36:18",
+            "energy_demand_at_arrival": 6.002566327818769,
+            "battery": {
+                "battery_energy": 45,
+                "present_energy": 38.99743367218123,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 128
+        },
+        {
+            "arrival_id": 3,
+            "arrival_time": "2022-06-02 06:30:00",
+            "departure_time": "2022-06-02 07:17:57",
+            "energy_demand_at_arrival": 14.10398472833652,
+            "battery": {
+                "battery_energy": 55,
+                "present_energy": 40.89601527166348,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 36
+        },
+        {
+            "arrival_id": 4,
+            "arrival_time": "2022-06-02 07:25:00",
+            "departure_time": "2022-06-02 08:00:10",
+            "energy_demand_at_arrival": 11.725148280164824,
+            "battery": {
+                "battery_energy": 65,
+                "present_energy": 53.274851719835176,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 124
+        },
+        {
+            "arrival_id": 5,
+            "arrival_time": "2022-06-02 08:55:00",
+            "departure_time": "2022-06-02 09:16:53",
+            "energy_demand_at_arrival": 57.90582335129787,
+            "battery": {
+                "battery_energy": 90,
+                "present_energy": 32.09417664870213,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 123
+        },
+        {
+            "arrival_id": 6,
+            "arrival_time": "2022-06-02 09:10:00",
+            "departure_time": "2022-06-02 09:33:10",
+            "energy_demand_at_arrival": 30.953736996335724,
+            "battery": {
+                "battery_energy": 40,
+                "present_energy": 9.046263003664276,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 139
+        },
+        {
+            "arrival_id": 7,
+            "arrival_time": "2022-06-02 09:35:00",
+            "departure_time": "2022-06-02 09:27:04",
+            "energy_demand_at_arrival": 37.05549332388969,
+            "battery": {
+                "battery_energy": 55,
+                "present_energy": 17.94450667611031,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 80
+        },
+        {
+            "arrival_id": 8,
+            "arrival_time": "2022-06-02 10:05:00",
+            "departure_time": "2022-06-02 10:02:09",
+            "energy_demand_at_arrival": 32.089815477495904,
+            "battery": {
+                "battery_energy": 50,
+                "present_energy": 17.910184522504096,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 28
+        },
+        {
+            "arrival_id": 9,
+            "arrival_time": "2022-06-02 11:10:00",
+            "departure_time": "2022-06-02 11:27:13",
+            "energy_demand_at_arrival": 32.128324713145076,
+            "battery": {
+                "battery_energy": 55,
+                "present_energy": 22.871675286854924,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 84
+        },
+        {
+            "arrival_id": 10,
+            "arrival_time": "2022-06-02 12:15:00",
+            "departure_time": "2022-06-02 12:25:59",
+            "energy_demand_at_arrival": 39.16318143408328,
+            "battery": {
+                "battery_energy": 50,
+                "present_energy": 10.836818565916722,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 99
+        },
+        {
+            "arrival_id": 11,
+            "arrival_time": "2022-06-02 12:15:00",
+            "departure_time": "2022-06-02 12:24:16",
+            "energy_demand_at_arrival": 19.517886695829606,
+            "battery": {
+                "battery_energy": 35,
+                "present_energy": 15.482113304170394,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 23
+        },
+        {
+            "arrival_id": 12,
+            "arrival_time": "2022-06-02 12:20:00",
+            "departure_time": "2022-06-02 12:26:42",
+            "energy_demand_at_arrival": 23.142076195977808,
+            "battery": {
+                "battery_energy": 45,
+                "present_energy": 21.857923804022192,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 43
+        },
+        {
+            "arrival_id": 13,
+            "arrival_time": "2022-06-02 12:35:00",
+            "departure_time": "2022-06-02 13:11:33",
+            "energy_demand_at_arrival": 19.964191262245677,
+            "battery": {
+                "battery_energy": 80,
+                "present_energy": 60.03580873775432,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 100
+        },
+        {
+            "arrival_id": 14,
+            "arrival_time": "2022-06-02 12:50:00",
+            "departure_time": "2022-06-02 13:09:58",
+            "energy_demand_at_arrival": 11.244206926242626,
+            "battery": {
+                "battery_energy": 90,
+                "present_energy": 78.75579307375737,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 39
+        },
+        {
+            "arrival_id": 15,
+            "arrival_time": "2022-06-02 12:50:00",
+            "departure_time": "2022-06-02 13:18:32",
+            "energy_demand_at_arrival": 4.717592308560867,
+            "battery": {
+                "battery_energy": 45,
+                "present_energy": 40.28240769143913,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 119
+        },
+        {
+            "arrival_id": 16,
+            "arrival_time": "2022-06-02 13:00:00",
+            "departure_time": "2022-06-02 13:47:06",
+            "energy_demand_at_arrival": 25.825875220869378,
+            "battery": {
+                "battery_energy": 80,
+                "present_energy": 54.17412477913062,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 160
+        },
+        {
+            "arrival_id": 17,
+            "arrival_time": "2022-06-02 13:15:00",
+            "departure_time": "2022-06-02 13:34:30",
+            "energy_demand_at_arrival": 23.952741458982047,
+            "battery": {
+                "battery_energy": 50,
+                "present_energy": 26.047258541017953,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 104
+        },
+        {
+            "arrival_id": 18,
+            "arrival_time": "2022-06-02 13:25:00",
+            "departure_time": "2022-06-02 13:54:01",
+            "energy_demand_at_arrival": 44.667338213582894,
+            "battery": {
+                "battery_energy": 70,
+                "present_energy": 25.332661786417106,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 56
+        },
+        {
+            "arrival_id": 19,
+            "arrival_time": "2022-06-02 13:35:00",
+            "departure_time": "2022-06-02 13:42:13",
+            "energy_demand_at_arrival": 57.675763805902655,
+            "battery": {
+                "battery_energy": 70,
+                "present_energy": 12.324236194097347,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 35
+        },
+        {
+            "arrival_id": 20,
+            "arrival_time": "2022-06-02 13:55:00",
+            "departure_time": "2022-06-02 14:21:08",
+            "energy_demand_at_arrival": 6.091504102526152,
+            "battery": {
+                "battery_energy": 50,
+                "present_energy": 43.90849589747385,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 75
+        },
+        {
+            "arrival_id": 21,
+            "arrival_time": "2022-06-02 14:30:00",
+            "departure_time": "2022-06-02 15:07:15",
+            "energy_demand_at_arrival": 26.979745865383762,
+            "battery": {
+                "battery_energy": 45,
+                "present_energy": 18.020254134616238,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 59
+        },
+        {
+            "arrival_id": 22,
+            "arrival_time": "2022-06-02 14:30:00",
+            "departure_time": "2022-06-02 15:15:09",
+            "energy_demand_at_arrival": 36.96506643402047,
+            "battery": {
+                "battery_energy": 80,
+                "present_energy": 43.03493356597953,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 152
+        },
+        {
+            "arrival_id": 23,
+            "arrival_time": "2022-06-02 14:50:00",
+            "departure_time": "2022-06-02 14:51:15",
+            "energy_demand_at_arrival": 33.1637521128424,
+            "battery": {
+                "battery_energy": 60,
+                "present_energy": 26.836247887157597,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 31
+        },
+        {
+            "arrival_id": 24,
+            "arrival_time": "2022-06-02 15:20:00",
+            "departure_time": "2022-06-02 15:40:14",
+            "energy_demand_at_arrival": 65.32266089596638,
+            "battery": {
+                "battery_energy": 80,
+                "present_energy": 14.677339104033628,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 144
+        },
+        {
+            "arrival_id": 25,
+            "arrival_time": "2022-06-02 15:30:00",
+            "departure_time": "2022-06-02 16:02:12",
+            "energy_demand_at_arrival": 9.270463676063756,
+            "battery": {
+                "battery_energy": 45,
+                "present_energy": 35.729536323936244,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 131
+        },
+        {
+            "arrival_id": 26,
+            "arrival_time": "2022-06-02 15:40:00",
+            "departure_time": "2022-06-02 15:56:29",
+            "energy_demand_at_arrival": 26.91664494002393,
+            "battery": {
+                "battery_energy": 30,
+                "present_energy": 3.0833550599760713,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 83
+        },
+        {
+            "arrival_id": 27,
+            "arrival_time": "2022-06-02 16:00:00",
+            "departure_time": "2022-06-02 16:01:04",
+            "energy_demand_at_arrival": 68.91094466371183,
+            "battery": {
+                "battery_energy": 85,
+                "present_energy": 16.089055336288176,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 120
+        },
+        {
+            "arrival_id": 28,
+            "arrival_time": "2022-06-02 16:30:00",
+            "departure_time": "2022-06-02 17:01:54",
+            "energy_demand_at_arrival": 17.828970703638994,
+            "battery": {
+                "battery_energy": 75,
+                "present_energy": 57.171029296361006,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 40
+        },
+        {
+            "arrival_id": 29,
+            "arrival_time": "2022-06-02 16:50:00",
+            "departure_time": "2022-06-02 17:45:22",
+            "energy_demand_at_arrival": 12.210438154059595,
+            "battery": {
+                "battery_energy": 75,
+                "present_energy": 62.789561845940405,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 140
+        },
+        {
+            "arrival_id": 30,
+            "arrival_time": "2022-06-02 17:00:00",
+            "departure_time": "2022-06-02 17:17:49",
+            "energy_demand_at_arrival": 78.47268931517357,
+            "battery": {
+                "battery_energy": 95,
+                "present_energy": 16.527310684826432,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 20
+        },
+        {
+            "arrival_id": 31,
+            "arrival_time": "2022-06-02 17:05:00",
+            "departure_time": "2022-06-02 17:50:28",
+            "energy_demand_at_arrival": 13.099058259997765,
+            "battery": {
+                "battery_energy": 35,
+                "present_energy": 21.900941740002235,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 147
+        },
+        {
+            "arrival_id": 32,
+            "arrival_time": "2022-06-02 17:05:00",
+            "departure_time": "2022-06-02 17:49:57",
+            "energy_demand_at_arrival": 37.98371503360302,
+            "battery": {
+                "battery_energy": 95,
+                "present_energy": 57.01628496639698,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 132
+        },
+        {
+            "arrival_id": 33,
+            "arrival_time": "2022-06-02 17:30:00",
+            "departure_time": "2022-06-02 18:10:41",
+            "energy_demand_at_arrival": 41.76987313457401,
+            "battery": {
+                "battery_energy": 85,
+                "present_energy": 43.23012686542599,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 24
+        },
+        {
+            "arrival_id": 34,
+            "arrival_time": "2022-06-02 20:30:00",
+            "departure_time": "2022-06-02 20:54:30",
+            "energy_demand_at_arrival": 44.858162556931276,
+            "battery": {
+                "battery_energy": 65,
+                "present_energy": 20.141837443068724,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 143
+        },
+        {
+            "arrival_id": 35,
+            "arrival_time": "2022-06-02 20:45:00",
+            "departure_time": "2022-06-02 21:30:26",
+            "energy_demand_at_arrival": 19.681078468918678,
+            "battery": {
+                "battery_energy": 55,
+                "present_energy": 35.31892153108132,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 136
+        },
+        {
+            "arrival_id": 36,
+            "arrival_time": "2022-06-02 20:55:00",
+            "departure_time": "2022-06-02 21:39:40",
+            "energy_demand_at_arrival": 9.874922326472873,
+            "battery": {
+                "battery_energy": 40,
+                "present_energy": 30.125077673527127,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 135
+        },
+        {
+            "arrival_id": 37,
+            "arrival_time": "2022-06-02 21:45:00",
+            "departure_time": "2022-06-02 21:56:29",
+            "energy_demand_at_arrival": 44.64053609150915,
+            "battery": {
+                "battery_energy": 75,
+                "present_energy": 30.359463908490852,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 48
+        },
+        {
+            "arrival_id": 38,
+            "arrival_time": "2022-06-02 21:55:00",
+            "departure_time": "2022-06-02 22:25:58",
+            "energy_demand_at_arrival": 10.526235094758725,
+            "battery": {
+                "battery_energy": 45,
+                "present_energy": 34.473764905241275,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 156
+        },
+        {
+            "arrival_id": 39,
+            "arrival_time": "2022-06-02 23:00:00",
+            "departure_time": "2022-06-02 23:46:01",
+            "energy_demand_at_arrival": 74.98887389109575,
+            "battery": {
+                "battery_energy": 95,
+                "present_energy": 20.011126108904254,
+                "maximum_charging_c_rate": 3
+            },
+            "parking_spot_id": 76
+        }
+    ]
+}

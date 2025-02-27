@@ -1,0 +1,26 @@
+# Configuration Parameters
+
+| Parameter                          | Description                                                                 | Example Value                          |
+|------------------------------------|-----------------------------------------------------------------------------|----------------------------------------|
+| `starttime`                        | The start time of the simulation.                                           | `{ "year": 2023, "month": 10, "day": 16, "hour": 0, "minute": 0, "second": 0 }` |
+| `step_time`                        | The time step for the simulation in seconds.                                | `300`                                  |
+| `sim_duration`                     | The duration of the simulation.                                             | `{ "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }` |
+| `max_charging_power_in_kW`         | Maximum charging power of the installed charging stations in kW.                                               | `50`                                   |
+| `max_grid_power_in_kW`             | Maximum allowed grid power in kW. Could relate to the value of the main fuse of at the grid connection point.                                                  | `1000`                                 |
+| `max_building_power_in_kW`         | Maximum building power in kW (NOT USED).                                               | `500`                                  |
+| `yearly_building_consumption_in_kWh`| Yearly building consumption in kWh. Used to scale the trajectory of the building power over a day.                                         | `200000`                               |
+| `max_pv_power_in_kW`               | Maximum photovoltaic power in kW. Relates to the Peak Power value, as often used to describe the size/power capcity of PV arrays. Is used to scale the trajectory of the PV power over a day.                                           | `30`                                   |
+| `max_parking_time`                 | Maximum parking time. Used to saturate the parking duration of arriving EVs in the simulation.                                                       | `{ "hours": 2, "minutes": 0, "seconds": 0 }` |
+| `max_energy_request_in_kWh`        | Maximum energy request in kWh. Used to saturate the energy request of arriving EVs.                                            | `100`                                  |
+| `max_ev_energy_in_kWh`             | Maximum electric vehicle energy in kWh. Used as maximum battery size for arriving EVs.                                 | `100`                                  |
+| `max_gini_energy_in_kWh`           | Maximum Gini energy in kWh (NOT USED)                                               | `100`                                  |
+| `customers_per_hour`               | Number of customers per hour. Used to scale the number of EVs arriving per time step. A value of 1 means that the expectation is that throughout a day 24 EVs arrive.                                               | `1`                                    |
+| `assigner_mode`                    | Mode of the assigner. Options are:                                                       | `fixed`                                |
+|                                    | - `fixed`: Assigns a fixed parking area field to arriving EVs based on the value within the recording used.                                                        |                                        |
+|                                    | - `random`: Assigns a random parking area field.                                                      |                                        |
+|                                    | - `charging_station`: Assigns the EV to a charging station at the parking area, if there is an empty one.                |                                        |
+| `gini_starting_fields`             | Starting fields for the mobile charging robots (GINIs). IMPORTANT: The length of this list defines the number of GINIs. An error might be thrown if the field is not feasible.                                                   | `[13, 7, 3]`                           |
+| `parking_lot_path`                 | Path to the parking lot configuration file. The parking lot configuration file describes the structure of the parking area.                                  | `config\\parking_lot_config\\Benchmark\\Parking_lot_benchmark.txt` |
+| `control_agent`                    | Control agent used in the simulation. All fully supported options can be found in `Controller_Agent\AgentFactory.py`. The agents are distinguished between type of algorithms and use cases (with/w.o. GINIs, with/w.o. stationary storage)                                       | `rule_based_agent_one`                 |
+| `weights_for reward`               | Weights for the reward calculation.                                         | `{ "weight_not_satisfied": 10, "weight_rejection": 50, "weight_energy_consumption": 1 }` |
+| `recording_data_path`              | Path to the recording data file. If here a path is provided. The arriving EVs are created based on a recording.                                             | `config\\traffic_sim_config\\arriving_evs_record_2024-11-17_10-46-31.json` |

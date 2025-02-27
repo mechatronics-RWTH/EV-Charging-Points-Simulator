@@ -1,0 +1,13 @@
+{
+
+    "N_pred": 10,
+    "solver": "glpk",
+    "solver_time_limit": 60,
+    "solver_mip_gap": 0.05,
+    "show_solver_output": false,
+    "selling_cost_in_euro_per_kwh": 0.5,
+    "use_slack_weight_end_of_horizon": true,
+    "prediction_mode" : "noprediction",
+    "prediction_data_path": "config/traffic_sim_config/arriving_evs_record_2025-01-15_07-59-19.json"
+
+}

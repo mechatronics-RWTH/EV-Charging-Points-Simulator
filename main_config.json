@@ -1,0 +1,7 @@
+{
+    "RENDER": false , 
+    "SAVE_JSON": true, 
+    "OUTPUT_GRAPHS": false,
+    "FOLDERPATH": "config/env_config/Benchmark",
+    "LOOP": false
+}

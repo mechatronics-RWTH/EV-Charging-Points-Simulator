@@ -1,0 +1,57 @@
+{
+    "starttime":{
+        "year": 2022,
+        "month": 6,
+        "day": 2,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+    },
+    "step_time": 300,
+    "sim_duration": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+    },
+    "max_charging_power_in_kW": 11,
+    "max_grid_power_in_kW": 1000,
+    "max_building_power_in_kW": 500,
+    "yearly_building_consumption_in_kWh": 100000,
+    "max_pv_power_in_kW": 20,
+    "max_parking_time": {
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+    },
+    "max_energy_request_in_kWh": 100,
+    "max_ev_energy_in_kWh": 100,
+<<<<<<<< HEAD:config/env_config/env_config_debug.json
+    "max_gini_energy_in_kWh": 100,
+    "customers_per_hour":1,
+    "assigner_mode": "fixed",
+    "gini_starting_fields": [13,7,10],
+    "parking_lot_path": "config\\parking_lot_config\\Parking_lot_test_very_smart.txt",
+========
+    "max_gini_energy_in_kWh": 40,
+    "customers_per_hour": 1,
+    "assigner_mode": "fixed",
+    "gini_starting_fields": [2],
+    "parking_lot_path": "config\\Parking_lot_simple.txt",
+>>>>>>>> main_MPC:config/env_config/run_MPC_test.json
+    "control_agent": "rule_based_agent_one",
+
+    "weights_for reward": {
+        "weight_not_satisfied":10,
+        "weight_rejection":50,
+        "weight_energy_consumption":1
+    },
+<<<<<<<< HEAD:config/env_config/env_config_debug.json
+    "recording_data_path": "config/traffic_sim_config/arriving_evs_record_2025-01-22_14-14-13.json"
+========
+    "recording_data_path":"config\\traffic_sim_config\\arriving_evs_record_2025-01-14_08-29-31.json"
+    
+
+>>>>>>>> main_MPC:config/env_config/run_MPC_test.json
+}
+    

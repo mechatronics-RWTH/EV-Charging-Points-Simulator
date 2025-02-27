@@ -1,0 +1,16 @@
+{
+"title": "Final Profit",
+"y_axis_title": "Final Profit / \\euro",
+"file_name": "final_profit_plot.svg",
+"data": 
+{
+    "algorithms": ["Rule-Based", "HMARL", "MPC LSTM"],
+    "seasons": ["Winter", "Spring", "Summer", "Fall"],
+    "results": {
+        "Winter": [-71.34385534274804, -19.9615385673976, 4.595313555949019],
+        "Spring": [180.45085433985633, 238.8011526891346,  335.08003463021123],
+        "Summer": [111.8197455775412, 163.29885411723558,  207.21772506558693],
+        "Fall": [58.19621951066233, 213.4588041554499,  191.13070991075665]
+    }
+}
+}

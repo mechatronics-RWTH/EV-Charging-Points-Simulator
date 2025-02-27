@@ -1,0 +1,176 @@
+[
+    {
+        "episode": 202215119754952266,
+        "episode_length": 5295,
+        "mean_reward": -0.2735948398506888,
+        "agent_rewards": {
+            "gini_agent_0": {
+                "policy": "gini0_policy",
+                "reward": 230.66256050960425
+            },
+            "gini_agent_1": {
+                "policy": "gini1_policy",
+                "reward": 161.29150181907886
+            },
+            "gini_agent_2": {
+                "policy": "gini2_policy",
+                "reward": 103.21924729232329
+            },
+            "central_agent_13": {
+                "policy": "central_agent_policy",
+                "reward": -61.379394068519545
+            },
+            "central_agent_5": {
+                "policy": "central_agent_policy",
+                "reward": -187.3772994668682
+            },
+            "central_agent_31": {
+                "policy": "central_agent_policy",
+                "reward": -136.60982568189536
+            },
+            "central_agent_18": {
+                "policy": "central_agent_policy",
+                "reward": -169.64445910874713
+            },
+            "central_agent_7": {
+                "policy": "central_agent_policy",
+                "reward": -121.36011545198657
+            },
+            "central_agent_16": {
+                "policy": "central_agent_policy",
+                "reward": -161.47618206369899
+            },
+            "central_agent_20": {
+                "policy": "central_agent_policy",
+                "reward": -152.3699711616809
+            },
+            "central_agent_21": {
+                "policy": "central_agent_policy",
+                "reward": -60.36552628012388
+            },
+            "central_agent_3": {
+                "policy": "central_agent_policy",
+                "reward": -123.28226895315365
+            },
+            "central_agent_33": {
+                "policy": "central_agent_policy",
+                "reward": -80.4478956379812
+            },
+            "central_agent_2": {
+                "policy": "central_agent_policy",
+                "reward": -171.26857232141066
+            },
+            "central_agent_27": {
+                "policy": "central_agent_policy",
+                "reward": -85.60171968545453
+            },
+            "central_agent_32": {
+                "policy": "central_agent_policy",
+                "reward": -112.55432228842164
+            },
+            "central_agent_4": {
+                "policy": "central_agent_policy",
+                "reward": -105.6678216009761
+            },
+            "central_agent_14": {
+                "policy": "central_agent_policy",
+                "reward": -129.40536831415153
+            },
+            "central_agent_29": {
+                "policy": "central_agent_policy",
+                "reward": -33.43818666037503
+            },
+            "central_agent_30": {
+                "policy": "central_agent_policy",
+                "reward": -51.60905788495866
+            }
+        }
+    },
+    {
+        "episode": 240929381714506999,
+        "episode_length": 5155,
+        "mean_reward": -0.3432790740776582,
+        "agent_rewards": {
+            "gini_agent_0": {
+                "policy": "gini0_policy",
+                "reward": 310.54777378225776
+            },
+            "gini_agent_1": {
+                "policy": "gini1_policy",
+                "reward": 165.6452204430031
+            },
+            "gini_agent_2": {
+                "policy": "gini2_policy",
+                "reward": 99.10900701271424
+            },
+            "central_agent_2": {
+                "policy": "central_agent_policy",
+                "reward": -293.87915427200824
+            },
+            "central_agent_30": {
+                "policy": "central_agent_policy",
+                "reward": -150.40642643848452
+            },
+            "central_agent_27": {
+                "policy": "central_agent_policy",
+                "reward": -111.19353300002803
+            },
+            "central_agent_18": {
+                "policy": "central_agent_policy",
+                "reward": -256.7624226441793
+            },
+            "central_agent_7": {
+                "policy": "central_agent_policy",
+                "reward": -96.48612053641276
+            },
+            "central_agent_13": {
+                "policy": "central_agent_policy",
+                "reward": -199.83252061404426
+            },
+            "central_agent_33": {
+                "policy": "central_agent_policy",
+                "reward": -77.48106848552908
+            },
+            "central_agent_29": {
+                "policy": "central_agent_policy",
+                "reward": -100.3647636773688
+            },
+            "central_agent_16": {
+                "policy": "central_agent_policy",
+                "reward": -237.98646908921032
+            },
+            "central_agent_5": {
+                "policy": "central_agent_policy",
+                "reward": -136.48707687296303
+            },
+            "central_agent_21": {
+                "policy": "central_agent_policy",
+                "reward": -77.54668472682134
+            },
+            "central_agent_3": {
+                "policy": "central_agent_policy",
+                "reward": -57.72863869174463
+            },
+            "central_agent_32": {
+                "policy": "central_agent_policy",
+                "reward": -87.83541588203458
+            },
+            "central_agent_4": {
+                "policy": "central_agent_policy",
+                "reward": -96.79944023250738
+            },
+            "central_agent_20": {
+                "policy": "central_agent_policy",
+                "reward": -180.76364746031152
+            },
+            "central_agent_31": {
+                "policy": "central_agent_policy",
+                "reward": -62.920609662150106
+            },
+            "central_agent_14": {
+                "policy": "central_agent_policy",
+                "reward": -120.43163582250523
+            }
+        }
+    }
+]

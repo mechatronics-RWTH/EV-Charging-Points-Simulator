@@ -1,0 +1,4 @@
+from SimulationModules.Gini.InterfaceMobileChargingStation import InterfaceMobileChargingStation
+
+class MobileChargingStation:
+

@@ -1,0 +1,16 @@
+{
+"title": "Final Profit",
+"y_axis_title": "Energy charged to EVs / kWh",
+"file_name": "energy_charged_to_evs_comparison.svg",
+"data": 
+{
+    "algorithms": ["Rule-Based", "HMARL",  "MPC LSTM"],
+    "seasons": ["Winter", "Spring", "Summer", "Fall"],
+    "results": {
+        "Winter": [1414.7821477033017, 1563.511785663716, 1619.4042977994193],
+        "Spring": [1293.4799206478806 , 1460.4446716718496, 1710.8135284195607],
+        "Summer": [1073.9909409047957,1231.3586268780896 ,1304.6436084171353],
+        "Fall": [1116.7481514426215, 1522.6484373417034, 1444.133985695411]
+    }
+}
+}

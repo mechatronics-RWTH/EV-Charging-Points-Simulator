@@ -1,0 +1,41 @@
+{"starttime":{
+        "year": 2023,
+        "month": 10,
+        "day": 16,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+    },
+    "step_time": 300,
+    "sim_duration": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+    },
+    "max_charging_power_in_kW": 50,
+    "max_grid_power_in_kW": 1000,
+    "max_building_power_in_kW": 500,
+    "yearly_building_consumption_in_kWh": 200000,
+    "max_pv_power_in_kW": 40,
+    "max_parking_time": {
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+    },
+    "max_energy_request_in_kWh": 100,
+    "max_ev_energy_in_kWh": 100,
+    "max_gini_energy_in_kWh": 35,
+    "customers_per_hour": 1,
+    "assigner_mode": "fixed",
+    "gini_starting_fields": [13,7],
+    "parking_lot_path": "config\\parking_lot_config\\Benchmark\\Parking_lot_benchmark.txt",
+    "control_agent": "rule_based_agent_one",
+
+    "weights_for reward": {
+        "weight_not_satisfied":10,
+        "weight_rejection":50,
+        "weight_energy_consumption":1
+    },
+    "recording_data_path": "config\\traffic_sim_config\\arriving_evs_record_2024-11-17_10-46-31.json"
+}

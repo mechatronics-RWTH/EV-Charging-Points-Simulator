@@ -1,0 +1,47 @@
+{
+    "starttime":{
+        "year": 2022,
+        "month": 6,
+        "day": 2,
+        "hour": 0,
+        "minute": 0,
+        "second": 0
+    },
+    "step_time": 600,
+    "sim_duration": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+    },
+    "max_charging_power_in_kW": 100,
+    "max_grid_power_in_kW": 25,
+    "max_building_power_in_kW": 500,
+    "yearly_building_consumption_in_kWh": 100000,
+    "max_pv_power_in_kW": 20,
+    "max_parking_time": {
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+    },
+    "max_energy_request_in_kWh": 100,
+    "max_ev_energy_in_kWh": 100,
+    "max_gini_energy_in_kWh": 100,
+    "customers_per_hour": 1,
+    "assigner_mode": "random",
+    "gini_starting_fields": [6,7,8],
+    "parking_lot_path": "config\\parking_lot_config\\Parking_lot_test_smart.txt",
+    "control_agent": "rule_based_agent_one",
+    "stationary_batteries":{
+        "energy_capacity_in_kWh": 80,
+        "present_energy_in_kWh": 40,
+        "max_charging_c_rate": 1,
+        "max_discharging_c_rate": 1
+    },
+    "weights_for reward": {
+        "weight_not_satisfied":10,
+        "weight_rejection":50,
+        "weight_energy_consumption":1
+    }
+}
+    

@@ -1,0 +1,30 @@
+{
+    "metadata": {
+        "Fiat500e": {
+            "energyCapacity": 42
+        },
+        "Mazda MX-30": {
+            "energyCapacity": 35.5
+        },
+        "Porsche Taycan": {
+            "energyCapacity": 93.4
+        },
+        "Mercedes-Benz EQS SUV": {
+            "energyCapacity": 107.8
+        }
+    },
+    "data": [
+        {"SOC": 0, "Fiat500e": 72, "Mazda MX-30": 34, "Porsche Taycan": 227, "Mercedes-Benz EQS SUV": 160 },
+        {"SOC": 0.1, "Fiat500e": 73, "Mazda MX-30": 35, "Porsche Taycan": 250, "Mercedes-Benz EQS SUV": 200 },
+        {"SOC": 0.2, "Fiat500e": 85, "Mazda MX-30": 36, "Porsche Taycan": 260, "Mercedes-Benz EQS SUV": 205 },
+        {"SOC": 0.3, "Fiat500e": 80, "Mazda MX-30": 36, "Porsche Taycan": 265, "Mercedes-Benz EQS SUV": 207 },
+        {"SOC": 0.4, "Fiat500e": 68, "Mazda MX-30": 37, "Porsche Taycan": 268, "Mercedes-Benz EQS SUV": 185 },
+        {"SOC": 0.5, "Fiat500e": 66, "Mazda MX-30": 38, "Porsche Taycan": 270, "Mercedes-Benz EQS SUV": 170 },
+        {"SOC": 0.6, "Fiat500e": 53, "Mazda MX-30": 34, "Porsche Taycan": 185, "Mercedes-Benz EQS SUV": 155 },
+        {"SOC": 0.7, "Fiat500e": 53, "Mazda MX-30": 28, "Porsche Taycan": 160, "Mercedes-Benz EQS SUV": 130 },
+        {"SOC": 0.8, "Fiat500e": 45, "Mazda MX-30": 22, "Porsche Taycan": 62, "Mercedes-Benz EQS SUV": 120 },
+        {"SOC": 0.9, "Fiat500e": 13, "Mazda MX-30": 17, "Porsche Taycan": 30, "Mercedes-Benz EQS SUV": 75 },
+        {"SOC": 1, "Fiat500e": 0, "Mazda MX-30": 0, "Porsche Taycan": 0, "Mercedes-Benz EQS SUV": 0 }
+    ]
+}
+

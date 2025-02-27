@@ -1,0 +1,43 @@
+# Specifies whether action masking is enabled
+use_action_mask: true  # true = enabled, false = disabled
+
+# Selection the structure of the algorithm
+algorithm_structure:
+  # Values:
+  # 0 = HMARL Basic
+  # 1 = HMARL LL
+  # 2 = HMARL Termination -> deactivate AM for performance
+  # 3 = HMARL Termination LL -> deactivate AM for performance
+  value: 0
+
+# Specifies the reinforcement learning algorithm
+#all algorithms marked with * currently do not support AM 
+#all algorithms marked with ** set rollout_fragment_length to 10 instad of "auto" in RLmain.py
+rl_algorithm:
+  # Values: 
+  # 0 = PPO
+  # 1 = APPO
+  # 2 = PG
+  # 3 = SAC*
+  # 4 = DQN* 
+  # 5 = A2C
+  # 6 = A3C
+  # 7 = IMPALA** 
+  value: 0
+
+
+#For CTDE
+useGlobalInformation: true
+
+#architecture parameters
+use_share_vf_layers: false
+reward_cost_weight: 0.125 # r = revenue + reward_cost_weight* cost
+
+#use individual policies for each agent
+useMultiGiniAgents: true
+useMultiTerminationAgents: true
+includeEstimatedParkingTimeInObservations: true
+
+
+
+

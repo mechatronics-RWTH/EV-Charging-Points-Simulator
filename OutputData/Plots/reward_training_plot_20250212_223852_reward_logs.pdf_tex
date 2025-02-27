@@ -1,0 +1,105 @@
+%% Creator: Inkscape 1.2 (dc2aedaf03, 2022-05-15), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'reward_training_plot_20250212_223852_reward_logs.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{408.250906bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.82553636)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.09247683,0.63138732){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-100\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.09247683,0.69395762){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-80\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.09247683,0.75652792){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-60\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.02752749,0.70298763){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}Total Reward / \euro\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.14685516,0.78121083){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal I_{RH} average$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.09247683,0.40078778){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}200\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.09247683,0.49766363){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.03649909,0.44642663){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}Total Reward / \euro\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.14685516,0.52464984){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I_{MCR,1}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.33994414,0.52464984){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I_{MCR,2}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.53303311,0.52464984){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I_{MCR,3}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.10104999,0.04885245){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.27503474,0.04885245){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.44901947,0.04885245){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}40\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.62300423,0.04885245){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}60\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.79698895,0.04885245){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}80\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.97097374,0.04885245){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}100\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.54405866,0.01458164){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Episode\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.09247683,0.1585544){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}200\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.09247683,0.26853248){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.03649908,0.18986563){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}Total Reward / \euro\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.14685516,0.26808883){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I_{ Rechrg, 1 }$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.37758604,0.26808883){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I_{ Rechrg, 2 }$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{reward_training_plot_20250212_223852_reward_logs.pdf}}%
+    \put(0.60831692,0.26808883){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$I_{ Rechrg, 3 }$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
