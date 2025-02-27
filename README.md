@@ -69,10 +69,10 @@ Usually the environment provides some degree of stochastic behavior, especially 
 NOTE: The env_config will be checked if it fits with the recording. If e.g. the start dates differ an error will be thrown. Same if the assigner_mode is not set to "fixed" in the env_config. 
 
 ### MPC based control strategy 
-To use the MPC based control strategy, please see the explanation [Controller_Agent\Model_Predictive_Controller\MPC_Explanation.md](Controller_Agent\Model_Predictive_Controller\MPC_Explanation.md).
+To use the MPC based control strategy, please see the explanation [Controller_Agent/Model_Predictive_Controller/MPC_Explanation.md](Controller_Agent/Model_Predictive_Controller/MPC_Explanation.md).
 
 ### RL based control strategy
-To use the RL based control strategy, please see the explanation [Controller_Agent\Reinforcement_Learning\RL_Explanation.md](Controller_Agent\Reinforcement_Learning\RL_Explanation.md).
+To use the RL based control strategy, please see the explanation [Controller_Agent/Reinforcement_Learning/RL_Explanation.md](Controller_Agent/Reinforcement_Learning/RL_Explanation.md).
 
 **Note**: As the MPC and RL strategy have been integrated with the primary purpose of performing research and investigation in the scope of thesis, the usability might not always be on point. If issues or questions come up feel free to follow the instructions in help sections or contact the author. 
 
